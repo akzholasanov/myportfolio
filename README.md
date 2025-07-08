@@ -34,9 +34,6 @@ This project was developed using the latest web technologies:
 ├── tsconfig.json         # TypeScript configuration
 └── package.json          # Project dependencies and scripts
 ```
-
-````
-
 ---
 
 ## 🚀 Getting Started
@@ -84,5 +81,3 @@ or reach out through [Telegram](https://t.me/akzholasanov) / [Email](mailto:akzh
 ---
 
 > Built with ❤️ using Astro and Tailwind CSS
-
-````
