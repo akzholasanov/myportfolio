@@ -1,0 +1,42 @@
+---
+import { otherProjects } from "../data/other-projects";
+---
+
+<section class="py-[100px] w-full flex flex-col md:flex-row justify-center gap-[50px]">
+  <div class="w-[200px] md:text-end">
+    <h4 class="text-base font-medium tracking-widest text-[#007bff]">
+      OTHER PROJECTS
+    </h4>
+  </div>
+  <div class="max-w-[725px] w-full flex flex-col gap-[50px]">
+    {
+      otherProjects.map((project) => (
+        <div class="flex flex-col gap-2">
+          <div class="w-3/4 group inline-block cursor-pointer">
+            <a href={project.repoUrl} target="_blank">
+              <h5 class="flex items-center">
+                {project.title}
+                <span class="ml-2 text-[#007bff] text-xl font-extralight transition-all duration-300 group-hover:translate-x-1 group-hover:text-[#007bff]">
+                  →
+                </span>
+              </h5>
+            </a>
+          </div>
+
+          <div>
+            <p class="font-light text-sm text-[#444452] tracking-wider">
+              {project.description}
+            </p>
+          </div>
+          <div class="w-full flex flex-wrap gap-2 font-light text-xs text-[#444452] tracking-wider mt-[10px]">
+            {project.tags.map((tag) => (
+              <span class="px-[7px] py-[2px] border border-[#007bff] rounded-[3px] text-[#007bff] ">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

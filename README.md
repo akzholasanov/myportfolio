@@ -1,47 +1,88 @@
-# Astro Starter Kit: Minimal
+# 🚀 Personal Portfolio Website
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+Welcome to the repository of my personal portfolio — a fast, minimal, and modern site built with **Astro** and **Tailwind CSS**.
+This project is focused on clean design, high performance, and responsive experience.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+![preview](./preview.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## 🛠️ Tech Stack
 
-Inside of your Astro project, you'll see the following folders and files:
+This project was developed using the latest web technologies:
 
-```text
-/
-├── public/
+- ⚡ **[Astro](https://astro.build/)** — A blazing-fast static site generator
+- 🎨 **[Tailwind CSS](https://tailwindcss.com/)** — A utility-first CSS framework for rapid styling
+- 💻 **TypeScript** — For type safety and better code maintainability
+- 📱 **Responsive Design** — Fully optimized for all screen sizes
+- 💫 Smooth animations and transitions
+
+---
+
+## 📁 Project Structure
+
+```bash
+.
+├── public/               # Static assets (images, icons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/       # Reusable UI components
+│   ├── layouts/          # Page templates and layout wrappers
+│   ├── pages/            # Website pages (e.g., index.astro, about.astro)
+│   └── styles/           # Global styles and Tailwind config
+├── astro.config.mjs      # Astro configuration
+├── tailwind.config.cjs   # Tailwind CSS configuration
+├── tsconfig.json         # TypeScript configuration
+└── package.json          # Project dependencies and scripts
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+````
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🚀 Getting Started
 
-## 🧞 Commands
+To run this project locally:
 
-All commands are run from the root of the project, from a terminal:
+1. **Clone the repository:**
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+```bash
+git clone https://github.com/akzholasanov/myportfolio.git
+cd myportfolio
+```
 
-## 👀 Want to learn more?
+2. **Install dependencies:**
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+npm install
+```
+
+3. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+Your site will be running at `http://localhost:4321`
+
+---
+
+## 📦 Available Scripts
+
+| Command           | Description                          |
+| ----------------- | ------------------------------------ |
+| `npm run dev`     | Start the local dev server           |
+| `npm run build`   | Build the project for production     |
+| `npm run preview` | Preview the production build locally |
+
+---
+
+## 📬 Contact
+
+If you’d like to get in touch, you can contact me via the form on the site
+or reach out through [Telegram](https://t.me/akzholasanov) / [Email](mailto:akzholasanov@gmail.com)
+
+---
+
+> Built with ❤️ using Astro and Tailwind CSS
+
+````

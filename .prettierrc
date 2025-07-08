@@ -1,0 +1,15 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "astroAllowShorthand": true,
+        "astroSortOrder": "html-attributes-scripts-styles-markup",
+        "singleQuote": false
+      }
+    }
+  ]
+}
